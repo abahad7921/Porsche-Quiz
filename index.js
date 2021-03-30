@@ -11,7 +11,7 @@ console.log("")
 const chalk = require('chalk');
  
 // console.log(chalk.blue('Hello world!'));
-=======
+var readlineSync = require('readline-sync')
 
 
 var score = 0;
