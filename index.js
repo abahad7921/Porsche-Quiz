@@ -1,3 +1,4 @@
+
 console.log("Welcome to Ultimate Porsche quiz")
 console.log("")
 console.log("")
@@ -6,10 +7,12 @@ console.log("enter a: for 1st option, b: for 2nd question, c: for 3rd option")
 console.log("")
 console.log("")
 
+
 const chalk = require('chalk');
  
 // console.log(chalk.blue('Hello world!'));
-var readlineSync = require('readline-sync')
+=======
+
 
 var score = 0;
 var highscore = 0;  //highscore will be updated by the admin manually
