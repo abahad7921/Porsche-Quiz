@@ -1,4 +1,12 @@
 //Quiz on Porsche 
+console.log("Welcome to Ultimate Porsche quiz")
+console.log("")
+console.log("")
+
+console.log("enter a: for 1st option, b: for 2nd question, c: for 3rd option")
+console.log("")
+console.log("")
+
 var readlineSync = require('readline-sync')
 
 var score = 0;
