@@ -1,4 +1,14 @@
-//Quiz on Porsche 
+console.log("Welcome to Ultimate Porsche quiz")
+console.log("")
+console.log("")
+
+console.log("enter a: for 1st option, b: for 2nd question, c: for 3rd option")
+console.log("")
+console.log("")
+
+const chalk = require('chalk');
+ 
+// console.log(chalk.blue('Hello world!'));
 var readlineSync = require('readline-sync')
 
 var score = 0;
@@ -41,17 +51,20 @@ var questions = [{
 function askQuestions(question,desiredAnswer,index)
 {
   // var userAnswer = readlineSync.question(question);
-  console.log(question)
+  console.log(chalk.blue(question))
   
-  console.log("a. "+ questions[i].op1)
-  console.log("b. "+ questions[i].op2)
-  console.log("c. "+ questions[i].op3)
-  
+  console.log(chalk.green("a. "+ questions[i].op1))
+  console.log(chalk.green("b. "+ questions[i].op2))
+  console.log(chalk.green("c. "+ questions[i].op3))
+
   var userAnswer = readlineSync.question();
   if(userAnswer === desiredAnswer)
   {
     score++;
   }
+
+  console.log("")
+
 
 }
 
